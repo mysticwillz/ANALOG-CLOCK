@@ -1,0 +1,153 @@
+:root {
+    --background-color:rgb(0, 13, 26);
+    --hourmin:rgb(0, 77, 153);
+    --sconds:rgb(153, 56, 0);
+    --center:rgb(4, 26, 48);
+    --mark:rgb(8, 153, 146);
+
+
+
+}
+
+*{
+    padding: 0%;
+    box-sizing: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color:rgb(0, 13, 26);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    align-content: center;
+
+}
+
+#container {
+    min-height: 300px;
+    width: 300px;
+    background-color:rgb(0, 13, 26);
+    border-radius: 50%;
+    border: 5px solid var(--background-color);
+    box-shadow: 0px 0px 10px;   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.seconds {
+    width: 2px;
+    height: 130px;
+    background-color: var(--sconds);
+    position: absolute;
+    bottom: 48%;
+    transform-origin: 0% 100%;
+}
+
+.center{
+    background-color: rgb(32, 32, 32);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+   
+}
+
+.minutes {
+    width: 2px;
+    height: 100px;
+    background-color: var(--hourmin);
+    position: absolute;
+    bottom: 48%;
+    transform-origin: 0% 100%;
+
+}
+
+.hours {
+    width: 4px;
+    height: 80px;
+    background-color:var(--hourmin);
+    position: absolute;
+    bottom: 48%;
+    transform-origin: 0% 100%;
+
+  
+
+}
+
+
+.twelve {
+    height: 20px;
+    width: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: 94%;
+}
+
+.six {
+    height: 20px;
+    width: 2px;
+    background-color: white;
+    position: absolute;
+    top: 94%;
+}
+
+.two {
+    height: 2px;
+    width: 20px;
+    background-color: white;
+    position: absolute;
+    left: 94%;
+}
+
+.eight {
+    height: 2px;
+    width: 20px;
+    background-color: white;
+    position: absolute;
+    right: 94%;
+}
+
+.one   {
+    height: 2px;
+    width: 20px;
+    background-color: white;
+    position: absolute;
+    top: 250px;
+    left: 240px;
+    transform: rotate(45deg);
+}
+
+.five {
+    height: 2px;
+    width: 20px;
+    background-color: white;
+    position: absolute;
+    bottom: 250px;
+    right: 43px;;
+    transform: rotate(135deg);
+}
+
+.seven {
+    height: 2px;
+    width: 20px;
+    background-color:white;
+    position: absolute;
+    bottom: 250px;
+    left:43px;
+    transform: rotate(45deg);
+}
+
+.nine {
+    height: 2px;
+    width: 20px;
+    background-color: white;
+    position: absolute;
+    top: 250px;
+    left: 43px;
+    transform: rotate(135deg);
+}
